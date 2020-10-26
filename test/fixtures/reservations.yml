@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: MyString
+  checkin: 2020-09-22
+  checkout: 2020-09-22
+  number_of_people: 1
+
+two:
+  name: MyString
+  email: MyString
+  checkin: 2020-09-22
+  checkout: 2020-09-22
+  number_of_people: 1

@@ -1,0 +1,33 @@
+<p>
+  <strong>ホテル:</strong>
+  <%= @reservation.hotel.name %>
+</p>
+
+<p>
+  <strong>名前:</strong>
+  <%= @reservation.name %>
+</p>
+
+<p>
+  <strong>メールアドレス:</strong>
+  <%= @reservation.email %>
+</p>
+
+<p>
+  <strong>チェックイン:</strong>
+  <%= @reservation.checkin %>
+</p>
+
+<p>
+  <strong>チェックアウト:</strong>
+  <%= @reservation.checkout %>
+</p>
+
+<p>
+  <strong>予約人数:</strong>
+  <%= @reservation.number_of_people %>
+</p>
+
+
+
+<%= link_to 'ホテル一覧へ', hotels_path(@hotel) %>
